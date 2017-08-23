@@ -62,7 +62,7 @@ class CompletedView: UIView {
     
     func render(status:TodoStatus) {
         switch status {
-        case .completed:
+        case .pending:
            let filterdArray = self.lists.models.filter({ (model) -> Bool in
             if model.status == status {
                 return true
@@ -72,11 +72,9 @@ class CompletedView: UIView {
             }
             })
             self.lists.models = filterdArray
-        case .pending:
+        case .completed  :
             print("")
-        default:
-            print("")
-        }
+    }
     }
     
 }
