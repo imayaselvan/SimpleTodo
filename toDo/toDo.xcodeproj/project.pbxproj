@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE74915E1F4C863A00688F73 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE74915D1F4C863A00688F73 /* Cartography.framework */; };
+		CE74915F1F4C864F00688F73 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE74915D1F4C863A00688F73 /* Cartography.framework */; };
+		CE7491601F4C864F00688F73 /* Cartography.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE74915D1F4C863A00688F73 /* Cartography.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE7491631F4C8AC000688F73 /* ToDoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7491621F4C8AC000688F73 /* ToDoCollection.swift */; };
+		CE7491651F4C8B2600688F73 /* toDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7491641F4C8B2600688F73 /* toDoModel.swift */; };
+		CE74916A1F4CA00F00688F73 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7491691F4CA00F00688F73 /* Utilities.swift */; };
+		CE74916C1F4CAD6400688F73 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74916B1F4CAD6400688F73 /* ListCell.swift */; };
+		CE74916E1F4CCB2B00688F73 /* MGSwipeTableCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE74916D1F4CCB2B00688F73 /* MGSwipeTableCell.framework */; };
+		CEBD5F881F4C831200D8ED9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD5F871F4C831200D8ED9C /* AppDelegate.swift */; };
+		CEBD5F8F1F4C831300D8ED9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5F8D1F4C831300D8ED9C /* Main.storyboard */; };
+		CEBD5F911F4C831300D8ED9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5F901F4C831300D8ED9C /* Assets.xcassets */; };
+		CEBD5F941F4C831300D8ED9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5F921F4C831300D8ED9C /* LaunchScreen.storyboard */; };
+		CEBD5F9F1F4C831300D8ED9C /* toDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD5F9E1F4C831300D8ED9C /* toDoTests.swift */; };
+		CEBD5FAA1F4C831300D8ED9C /* toDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD5FA91F4C831300D8ED9C /* toDoUITests.swift */; };
+		CEBD5FCE1F4C83C600D8ED9C /* Proxima Nova Black It.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FB91F4C83C600D8ED9C /* Proxima Nova Black It.otf */; };
+		CEBD5FCF1F4C83C600D8ED9C /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FBA1F4C83C600D8ED9C /* Proxima Nova Black.otf */; };
+		CEBD5FD01F4C83C600D8ED9C /* Proxima Nova Bold It.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FBB1F4C83C600D8ED9C /* Proxima Nova Bold It.otf */; };
+		CEBD5FD11F4C83C600D8ED9C /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FBC1F4C83C600D8ED9C /* Proxima Nova Bold.otf */; };
+		CEBD5FD21F4C83C600D8ED9C /* Proxima Nova Light It.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FBD1F4C83C600D8ED9C /* Proxima Nova Light It.otf */; };
+		CEBD5FD31F4C83C600D8ED9C /* Proxima Nova Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FBE1F4C83C600D8ED9C /* Proxima Nova Light.otf */; };
+		CEBD5FD41F4C83C600D8ED9C /* Proxima Nova Medium It.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FBF1F4C83C600D8ED9C /* Proxima Nova Medium It.otf */; };
+		CEBD5FD51F4C83C600D8ED9C /* Proxima Nova Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FC01F4C83C600D8ED9C /* Proxima Nova Medium.otf */; };
+		CEBD5FD61F4C83C600D8ED9C /* Proxima Nova Reg It.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FC11F4C83C600D8ED9C /* Proxima Nova Reg It.otf */; };
+		CEBD5FD71F4C83C600D8ED9C /* Proxima Nova Reg.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FC21F4C83C600D8ED9C /* Proxima Nova Reg.otf */; };
+		CEBD5FD81F4C83C600D8ED9C /* Proxima Nova Sbold It.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FC31F4C83C600D8ED9C /* Proxima Nova Sbold It.otf */; };
+		CEBD5FD91F4C83C600D8ED9C /* Proxima Nova Sbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FC41F4C83C600D8ED9C /* Proxima Nova Sbold.otf */; };
+		CEBD5FDA1F4C83C600D8ED9C /* Proxima Nova Thin It.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FC51F4C83C600D8ED9C /* Proxima Nova Thin It.otf */; };
+		CEBD5FDB1F4C83C600D8ED9C /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FC61F4C83C600D8ED9C /* Proxima Nova Thin.otf */; };
+		CEBD5FDC1F4C83C600D8ED9C /* Proxima Nova Xbold It.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FC71F4C83C600D8ED9C /* Proxima Nova Xbold It.otf */; };
+		CEBD5FDD1F4C83C600D8ED9C /* Proxima Nova Xbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEBD5FC81F4C83C600D8ED9C /* Proxima Nova Xbold.otf */; };
+		CEBD5FDE1F4C83C600D8ED9C /* Array + Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD5FCA1F4C83C600D8ED9C /* Array + Utilities.swift */; };
+		CEBD5FDF1F4C83C600D8ED9C /* Cartography.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD5FCB1F4C83C600D8ED9C /* Cartography.swift */; };
+		CEBD5FE01F4C83C600D8ED9C /* UIColor+Listings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD5FCC1F4C83C600D8ED9C /* UIColor+Listings.swift */; };
+		CEBD5FE11F4C83C600D8ED9C /* ViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD5FCD1F4C83C600D8ED9C /* ViewController+Utils.swift */; };
+		CEBD5FE51F4C846A00D8ED9C /* PendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD5FE41F4C846A00D8ED9C /* PendingViewController.swift */; };
+		CEBD5FE71F4C847700D8ED9C /* CompletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD5FE61F4C847700D8ED9C /* CompletedViewController.swift */; };
+		CEBD5FE91F4C848800D8ED9C /* PendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD5FE81F4C848800D8ED9C /* PendingView.swift */; };
+		CEBD5FEB1F4C849300D8ED9C /* CompletedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD5FEA1F4C849300D8ED9C /* CompletedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBD5F9B1F4C831300D8ED9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBD5F7C1F4C831200D8ED9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBD5F831F4C831200D8ED9C;
+			remoteInfo = toDo;
+		};
+		CEBD5FA61F4C831300D8ED9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBD5F7C1F4C831200D8ED9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBD5F831F4C831200D8ED9C;
+			remoteInfo = toDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE7491611F4C864F00688F73 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE7491601F4C864F00688F73 /* Cartography.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE74915D1F4C863A00688F73 /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = Carthage/Build/iOS/Cartography.framework; sourceTree = "<group>"; };
+		CE7491621F4C8AC000688F73 /* ToDoCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoCollection.swift; sourceTree = "<group>"; };
+		CE7491641F4C8B2600688F73 /* toDoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toDoModel.swift; sourceTree = "<group>"; };
+		CE7491691F4CA00F00688F73 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		CE74916B1F4CAD6400688F73 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		CE74916D1F4CCB2B00688F73 /* MGSwipeTableCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MGSwipeTableCell.framework; path = Carthage/Build/iOS/MGSwipeTableCell.framework; sourceTree = "<group>"; };
+		CEBD5F841F4C831200D8ED9C /* toDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD5F871F4C831200D8ED9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEBD5F8E1F4C831300D8ED9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBD5F901F4C831300D8ED9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBD5F931F4C831300D8ED9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBD5F951F4C831300D8ED9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBD5F9A1F4C831300D8ED9C /* toDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD5F9E1F4C831300D8ED9C /* toDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoTests.swift; sourceTree = "<group>"; };
+		CEBD5FA01F4C831300D8ED9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBD5FA51F4C831300D8ED9C /* toDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD5FA91F4C831300D8ED9C /* toDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoUITests.swift; sourceTree = "<group>"; };
+		CEBD5FAB1F4C831300D8ED9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBD5FB91F4C83C600D8ED9C /* Proxima Nova Black It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black It.otf"; sourceTree = "<group>"; };
+		CEBD5FBA1F4C83C600D8ED9C /* Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		CEBD5FBB1F4C83C600D8ED9C /* Proxima Nova Bold It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold It.otf"; sourceTree = "<group>"; };
+		CEBD5FBC1F4C83C600D8ED9C /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		CEBD5FBD1F4C83C600D8ED9C /* Proxima Nova Light It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Light It.otf"; sourceTree = "<group>"; };
+		CEBD5FBE1F4C83C600D8ED9C /* Proxima Nova Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Light.otf"; sourceTree = "<group>"; };
+		CEBD5FBF1F4C83C600D8ED9C /* Proxima Nova Medium It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Medium It.otf"; sourceTree = "<group>"; };
+		CEBD5FC01F4C83C600D8ED9C /* Proxima Nova Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Medium.otf"; sourceTree = "<group>"; };
+		CEBD5FC11F4C83C600D8ED9C /* Proxima Nova Reg It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Reg It.otf"; sourceTree = "<group>"; };
+		CEBD5FC21F4C83C600D8ED9C /* Proxima Nova Reg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Reg.otf"; sourceTree = "<group>"; };
+		CEBD5FC31F4C83C600D8ED9C /* Proxima Nova Sbold It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Sbold It.otf"; sourceTree = "<group>"; };
+		CEBD5FC41F4C83C600D8ED9C /* Proxima Nova Sbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Sbold.otf"; sourceTree = "<group>"; };
+		CEBD5FC51F4C83C600D8ED9C /* Proxima Nova Thin It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin It.otf"; sourceTree = "<group>"; };
+		CEBD5FC61F4C83C600D8ED9C /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		CEBD5FC71F4C83C600D8ED9C /* Proxima Nova Xbold It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Xbold It.otf"; sourceTree = "<group>"; };
+		CEBD5FC81F4C83C600D8ED9C /* Proxima Nova Xbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Xbold.otf"; sourceTree = "<group>"; };
+		CEBD5FCA1F4C83C600D8ED9C /* Array + Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array + Utilities.swift"; sourceTree = "<group>"; };
+		CEBD5FCB1F4C83C600D8ED9C /* Cartography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cartography.swift; sourceTree = "<group>"; };
+		CEBD5FCC1F4C83C600D8ED9C /* UIColor+Listings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Listings.swift"; sourceTree = "<group>"; };
+		CEBD5FCD1F4C83C600D8ED9C /* ViewController+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Utils.swift"; sourceTree = "<group>"; };
+		CEBD5FE41F4C846A00D8ED9C /* PendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingViewController.swift; sourceTree = "<group>"; };
+		CEBD5FE61F4C847700D8ED9C /* CompletedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedViewController.swift; sourceTree = "<group>"; };
+		CEBD5FE81F4C848800D8ED9C /* PendingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingView.swift; sourceTree = "<group>"; };
+		CEBD5FEA1F4C849300D8ED9C /* CompletedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBD5F811F4C831200D8ED9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE74916E1F4CCB2B00688F73 /* MGSwipeTableCell.framework in Frameworks */,
+				CE74915E1F4C863A00688F73 /* Cartography.framework in Frameworks */,
+				CE74915F1F4C864F00688F73 /* Cartography.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD5F971F4C831300D8ED9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD5FA21F4C831300D8ED9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE74915C1F4C863A00688F73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE74916D1F4CCB2B00688F73 /* MGSwipeTableCell.framework */,
+				CE74915D1F4C863A00688F73 /* Cartography.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEBD5F7B1F4C831200D8ED9C = {
+			isa = PBXGroup;
+			children = (
+				CEBD5F861F4C831200D8ED9C /* toDo */,
+				CEBD5F9D1F4C831300D8ED9C /* toDoTests */,
+				CEBD5FA81F4C831300D8ED9C /* toDoUITests */,
+				CEBD5F851F4C831200D8ED9C /* Products */,
+				CE74915C1F4C863A00688F73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBD5F851F4C831200D8ED9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD5F841F4C831200D8ED9C /* toDo.app */,
+				CEBD5F9A1F4C831300D8ED9C /* toDoTests.xctest */,
+				CEBD5FA51F4C831300D8ED9C /* toDoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBD5F861F4C831200D8ED9C /* toDo */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD5FE21F4C83F600D8ED9C /* Controller */,
+				CEBD5FE31F4C83F600D8ED9C /* View */,
+				CEBD5FB71F4C83C600D8ED9C /* Fonts */,
+				CEBD5FC91F4C83C600D8ED9C /* utilities */,
+				CEBD5F871F4C831200D8ED9C /* AppDelegate.swift */,
+				CEBD5F8D1F4C831300D8ED9C /* Main.storyboard */,
+				CEBD5F901F4C831300D8ED9C /* Assets.xcassets */,
+				CEBD5F921F4C831300D8ED9C /* LaunchScreen.storyboard */,
+				CEBD5F951F4C831300D8ED9C /* Info.plist */,
+				CE7491621F4C8AC000688F73 /* ToDoCollection.swift */,
+				CE7491641F4C8B2600688F73 /* toDoModel.swift */,
+			);
+			path = toDo;
+			sourceTree = "<group>";
+		};
+		CEBD5F9D1F4C831300D8ED9C /* toDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD5F9E1F4C831300D8ED9C /* toDoTests.swift */,
+				CEBD5FA01F4C831300D8ED9C /* Info.plist */,
+			);
+			path = toDoTests;
+			sourceTree = "<group>";
+		};
+		CEBD5FA81F4C831300D8ED9C /* toDoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD5FA91F4C831300D8ED9C /* toDoUITests.swift */,
+				CEBD5FAB1F4C831300D8ED9C /* Info.plist */,
+			);
+			path = toDoUITests;
+			sourceTree = "<group>";
+		};
+		CEBD5FB71F4C83C600D8ED9C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD5FB81F4C83C600D8ED9C /* Proxima Nova */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CEBD5FB81F4C83C600D8ED9C /* Proxima Nova */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD5FB91F4C83C600D8ED9C /* Proxima Nova Black It.otf */,
+				CEBD5FBA1F4C83C600D8ED9C /* Proxima Nova Black.otf */,
+				CEBD5FBB1F4C83C600D8ED9C /* Proxima Nova Bold It.otf */,
+				CEBD5FBC1F4C83C600D8ED9C /* Proxima Nova Bold.otf */,
+				CEBD5FBD1F4C83C600D8ED9C /* Proxima Nova Light It.otf */,
+				CEBD5FBE1F4C83C600D8ED9C /* Proxima Nova Light.otf */,
+				CEBD5FBF1F4C83C600D8ED9C /* Proxima Nova Medium It.otf */,
+				CEBD5FC01F4C83C600D8ED9C /* Proxima Nova Medium.otf */,
+				CEBD5FC11F4C83C600D8ED9C /* Proxima Nova Reg It.otf */,
+				CEBD5FC21F4C83C600D8ED9C /* Proxima Nova Reg.otf */,
+				CEBD5FC31F4C83C600D8ED9C /* Proxima Nova Sbold It.otf */,
+				CEBD5FC41F4C83C600D8ED9C /* Proxima Nova Sbold.otf */,
+				CEBD5FC51F4C83C600D8ED9C /* Proxima Nova Thin It.otf */,
+				CEBD5FC61F4C83C600D8ED9C /* Proxima Nova Thin.otf */,
+				CEBD5FC71F4C83C600D8ED9C /* Proxima Nova Xbold It.otf */,
+				CEBD5FC81F4C83C600D8ED9C /* Proxima Nova Xbold.otf */,
+			);
+			path = "Proxima Nova";
+			sourceTree = "<group>";
+		};
+		CEBD5FC91F4C83C600D8ED9C /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD5FCA1F4C83C600D8ED9C /* Array + Utilities.swift */,
+				CEBD5FCB1F4C83C600D8ED9C /* Cartography.swift */,
+				CEBD5FCC1F4C83C600D8ED9C /* UIColor+Listings.swift */,
+				CEBD5FCD1F4C83C600D8ED9C /* ViewController+Utils.swift */,
+				CE7491691F4CA00F00688F73 /* Utilities.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		CEBD5FE21F4C83F600D8ED9C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD5FE41F4C846A00D8ED9C /* PendingViewController.swift */,
+				CEBD5FE61F4C847700D8ED9C /* CompletedViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEBD5FE31F4C83F600D8ED9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD5FE81F4C848800D8ED9C /* PendingView.swift */,
+				CEBD5FEA1F4C849300D8ED9C /* CompletedView.swift */,
+				CE74916B1F4CAD6400688F73 /* ListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBD5F831F4C831200D8ED9C /* toDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD5FAE1F4C831300D8ED9C /* Build configuration list for PBXNativeTarget "toDo" */;
+			buildPhases = (
+				CEBD5F801F4C831200D8ED9C /* Sources */,
+				CEBD5F811F4C831200D8ED9C /* Frameworks */,
+				CEBD5F821F4C831200D8ED9C /* Resources */,
+				CEBD5FEC1F4C852000D8ED9C /* Carthage Script */,
+				CE7491611F4C864F00688F73 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toDo;
+			productName = toDo;
+			productReference = CEBD5F841F4C831200D8ED9C /* toDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBD5F991F4C831300D8ED9C /* toDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD5FB11F4C831300D8ED9C /* Build configuration list for PBXNativeTarget "toDoTests" */;
+			buildPhases = (
+				CEBD5F961F4C831300D8ED9C /* Sources */,
+				CEBD5F971F4C831300D8ED9C /* Frameworks */,
+				CEBD5F981F4C831300D8ED9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBD5F9C1F4C831300D8ED9C /* PBXTargetDependency */,
+			);
+			name = toDoTests;
+			productName = toDoTests;
+			productReference = CEBD5F9A1F4C831300D8ED9C /* toDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEBD5FA41F4C831300D8ED9C /* toDoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD5FB41F4C831300D8ED9C /* Build configuration list for PBXNativeTarget "toDoUITests" */;
+			buildPhases = (
+				CEBD5FA11F4C831300D8ED9C /* Sources */,
+				CEBD5FA21F4C831300D8ED9C /* Frameworks */,
+				CEBD5FA31F4C831300D8ED9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBD5FA71F4C831300D8ED9C /* PBXTargetDependency */,
+			);
+			name = toDoUITests;
+			productName = toDoUITests;
+			productReference = CEBD5FA51F4C831300D8ED9C /* toDoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBD5F7C1F4C831200D8ED9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Imayaselvan;
+				TargetAttributes = {
+					CEBD5F831F4C831200D8ED9C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PREW6LN2MP;
+						ProvisioningStyle = Automatic;
+					};
+					CEBD5F991F4C831300D8ED9C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PREW6LN2MP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEBD5F831F4C831200D8ED9C;
+					};
+					CEBD5FA41F4C831300D8ED9C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PREW6LN2MP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEBD5F831F4C831200D8ED9C;
+					};
+				};
+			};
+			buildConfigurationList = CEBD5F7F1F4C831200D8ED9C /* Build configuration list for PBXProject "toDo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBD5F7B1F4C831200D8ED9C;
+			productRefGroup = CEBD5F851F4C831200D8ED9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBD5F831F4C831200D8ED9C /* toDo */,
+				CEBD5F991F4C831300D8ED9C /* toDoTests */,
+				CEBD5FA41F4C831300D8ED9C /* toDoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBD5F821F4C831200D8ED9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD5F941F4C831300D8ED9C /* LaunchScreen.storyboard in Resources */,
+				CEBD5FD71F4C83C600D8ED9C /* Proxima Nova Reg.otf in Resources */,
+				CEBD5FD21F4C83C600D8ED9C /* Proxima Nova Light It.otf in Resources */,
+				CEBD5FDA1F4C83C600D8ED9C /* Proxima Nova Thin It.otf in Resources */,
+				CEBD5FD01F4C83C600D8ED9C /* Proxima Nova Bold It.otf in Resources */,
+				CEBD5F911F4C831300D8ED9C /* Assets.xcassets in Resources */,
+				CEBD5FDB1F4C83C600D8ED9C /* Proxima Nova Thin.otf in Resources */,
+				CEBD5FD11F4C83C600D8ED9C /* Proxima Nova Bold.otf in Resources */,
+				CEBD5FCE1F4C83C600D8ED9C /* Proxima Nova Black It.otf in Resources */,
+				CEBD5FD81F4C83C600D8ED9C /* Proxima Nova Sbold It.otf in Resources */,
+				CEBD5FD91F4C83C600D8ED9C /* Proxima Nova Sbold.otf in Resources */,
+				CEBD5FDD1F4C83C600D8ED9C /* Proxima Nova Xbold.otf in Resources */,
+				CEBD5F8F1F4C831300D8ED9C /* Main.storyboard in Resources */,
+				CEBD5FDC1F4C83C600D8ED9C /* Proxima Nova Xbold It.otf in Resources */,
+				CEBD5FD31F4C83C600D8ED9C /* Proxima Nova Light.otf in Resources */,
+				CEBD5FCF1F4C83C600D8ED9C /* Proxima Nova Black.otf in Resources */,
+				CEBD5FD61F4C83C600D8ED9C /* Proxima Nova Reg It.otf in Resources */,
+				CEBD5FD41F4C83C600D8ED9C /* Proxima Nova Medium It.otf in Resources */,
+				CEBD5FD51F4C83C600D8ED9C /* Proxima Nova Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD5F981F4C831300D8ED9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD5FA31F4C831300D8ED9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEBD5FEC1F4C852000D8ED9C /* Carthage Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Cartography.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MGSwipeTableCell.framework",
+			);
+			name = "Carthage Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBD5F801F4C831200D8ED9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7491651F4C8B2600688F73 /* toDoModel.swift in Sources */,
+				CEBD5FDF1F4C83C600D8ED9C /* Cartography.swift in Sources */,
+				CEBD5FDE1F4C83C600D8ED9C /* Array + Utilities.swift in Sources */,
+				CEBD5FE51F4C846A00D8ED9C /* PendingViewController.swift in Sources */,
+				CEBD5FE11F4C83C600D8ED9C /* ViewController+Utils.swift in Sources */,
+				CE74916C1F4CAD6400688F73 /* ListCell.swift in Sources */,
+				CEBD5F881F4C831200D8ED9C /* AppDelegate.swift in Sources */,
+				CE74916A1F4CA00F00688F73 /* Utilities.swift in Sources */,
+				CEBD5FE71F4C847700D8ED9C /* CompletedViewController.swift in Sources */,
+				CEBD5FEB1F4C849300D8ED9C /* CompletedView.swift in Sources */,
+				CEBD5FE01F4C83C600D8ED9C /* UIColor+Listings.swift in Sources */,
+				CEBD5FE91F4C848800D8ED9C /* PendingView.swift in Sources */,
+				CE7491631F4C8AC000688F73 /* ToDoCollection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD5F961F4C831300D8ED9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD5F9F1F4C831300D8ED9C /* toDoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBD5FA11F4C831300D8ED9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBD5FAA1F4C831300D8ED9C /* toDoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBD5F9C1F4C831300D8ED9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBD5F831F4C831200D8ED9C /* toDo */;
+			targetProxy = CEBD5F9B1F4C831300D8ED9C /* PBXContainerItemProxy */;
+		};
+		CEBD5FA71F4C831300D8ED9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBD5F831F4C831200D8ED9C /* toDo */;
+			targetProxy = CEBD5FA61F4C831300D8ED9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBD5F8D1F4C831300D8ED9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBD5F8E1F4C831300D8ED9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBD5F921F4C831300D8ED9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBD5F931F4C831300D8ED9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBD5FAC1F4C831300D8ED9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBD5FAD1F4C831300D8ED9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBD5FAF1F4C831300D8ED9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PREW6LN2MP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = toDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imay.app.toDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEBD5FB01F4C831300D8ED9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PREW6LN2MP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = toDo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imay.app.toDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CEBD5FB21F4C831300D8ED9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PREW6LN2MP;
+				INFOPLIST_FILE = toDoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imay.app.toDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toDo.app/toDo";
+			};
+			name = Debug;
+		};
+		CEBD5FB31F4C831300D8ED9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PREW6LN2MP;
+				INFOPLIST_FILE = toDoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imay.app.toDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toDo.app/toDo";
+			};
+			name = Release;
+		};
+		CEBD5FB51F4C831300D8ED9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PREW6LN2MP;
+				INFOPLIST_FILE = toDoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imay.app.toDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = toDo;
+			};
+			name = Debug;
+		};
+		CEBD5FB61F4C831300D8ED9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PREW6LN2MP;
+				INFOPLIST_FILE = toDoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imay.app.toDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = toDo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBD5F7F1F4C831200D8ED9C /* Build configuration list for PBXProject "toDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD5FAC1F4C831300D8ED9C /* Debug */,
+				CEBD5FAD1F4C831300D8ED9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBD5FAE1F4C831300D8ED9C /* Build configuration list for PBXNativeTarget "toDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD5FAF1F4C831300D8ED9C /* Debug */,
+				CEBD5FB01F4C831300D8ED9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBD5FB11F4C831300D8ED9C /* Build configuration list for PBXNativeTarget "toDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD5FB21F4C831300D8ED9C /* Debug */,
+				CEBD5FB31F4C831300D8ED9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBD5FB41F4C831300D8ED9C /* Build configuration list for PBXNativeTarget "toDoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD5FB51F4C831300D8ED9C /* Debug */,
+				CEBD5FB61F4C831300D8ED9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBD5F7C1F4C831200D8ED9C /* Project object */;
+}
